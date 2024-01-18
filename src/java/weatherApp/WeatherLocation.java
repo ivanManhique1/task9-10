@@ -4,8 +4,8 @@ import java.util.Date;
 import java.util.List;
 
 public class WeatherLocation {
-    private List<Location> locations;
-    private List<Weather> weatherList;
+    private Location location;
+    private Weather weather;
     private Date date;
 
 

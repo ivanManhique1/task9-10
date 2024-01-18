@@ -4,7 +4,7 @@ public class Weather {
     private double temperature;
     private double humidity;
     private double windSpeed;
-    private Location location;
+    private List<WeatherLocation> weatherLocationList;
     public Weather(double temperature, double humidity, double windSpeed) {
         this.temperature = temperature;
         this.humidity = humidity;
